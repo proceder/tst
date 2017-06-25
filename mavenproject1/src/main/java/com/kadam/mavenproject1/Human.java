@@ -12,5 +12,6 @@ package com.kadam.mavenproject1;
 public interface Human {
     
     public void info();
+    public int getAge();
     
 }

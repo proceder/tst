@@ -10,6 +10,8 @@ package com.kadam.mavenproject1;
  * @author kadam
  */
 public class European implements Human{
+    
+    private int age;
 
     @Override
     public void info() {
@@ -18,6 +20,11 @@ public class European implements Human{
     
     public void doSmth() {
         System.out.println("working european.");
+    }
+
+    @Override
+    public int getAge() {
+        return this.age;
     }
     
     
