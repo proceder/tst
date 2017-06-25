@@ -22,6 +22,15 @@ public class European implements Human{
         System.out.println("working european.");
     }
 
+    public European(int age) {
+        this.age = age;
+    }
+
+    public European() {
+    }
+    
+    
+
     @Override
     public int getAge() {
         return this.age;
