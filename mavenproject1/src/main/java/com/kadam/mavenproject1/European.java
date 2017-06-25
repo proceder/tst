@@ -16,6 +16,9 @@ public class European implements Human{
         System.out.println("I am the human - European");
     }
     
+    public void doSmth() {
+        System.out.println("working european.");
+    }
     
     
 }
