@@ -13,6 +13,10 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Hello World!"); // Display the string.
+        
+        Human european = new European(30);
+        System.out.println("AGE: " + european.getAge());
+        
     }
     
 }
