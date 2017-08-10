@@ -13,12 +13,16 @@ public class Asian implements Human{
 
     @Override
     public void info() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("com.kadam.mavenproject1.Asian.info()");
     }
 
     @Override
     public int getAge() {
         return 25;
+    }
+    
+    public String getBirthMonth() {
+        return "July";
     }
     
 }
