@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Hello World!"); // Display the string.
         
         Human european = new European(30);
-        System.out.println("AGE: " + european.getAge());
+        System.out.println("AGE of the human: " + european.getAge());
         
     }
     
