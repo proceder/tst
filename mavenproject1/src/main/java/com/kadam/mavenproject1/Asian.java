@@ -29,4 +29,10 @@ public class Asian implements Human{
         return "1985";
     }
     
+    public String getBirthDay() {
+        return "Monday";
+    }
+    
+    
+    
 }
