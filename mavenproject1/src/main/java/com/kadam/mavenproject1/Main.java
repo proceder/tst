@@ -17,7 +17,7 @@ public class Main {
         Human european = new European(30);
         System.out.println("AGE of the human: " + european.getAge());
         
-        System.out.println(european.toString());
+        european.info();
         
     }
     
