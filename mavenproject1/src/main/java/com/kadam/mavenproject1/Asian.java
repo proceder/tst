@@ -25,4 +25,8 @@ public class Asian implements Human{
         return "July";
     }
     
+    public String getBirthYear() {
+        return "1985";
+    }
+    
 }
