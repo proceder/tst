@@ -33,6 +33,8 @@ public class Asian implements Human{
         return "Monday";
     }
     
-    
+    public String getBirthWeek() {
+        return "12";
+    }
     
 }
