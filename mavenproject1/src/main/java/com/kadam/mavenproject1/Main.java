@@ -15,7 +15,12 @@ public class Main {
         System.out.println("Hello World!"); // Display the string.
         
         Human european = new European(30);
+
         System.out.println("--important AGE: " + european.getAge());
+
+        
+        european.info();
+
         
     }
     
